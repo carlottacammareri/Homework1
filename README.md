@@ -4,11 +4,11 @@ homework 1 pcs2021
 
 1.SOLVE ME FIRST
 
-      return a+b
-  num1 = int(input())
-  num2 = int(input())
-  res = solveMeFirst(num1,num2)
-  print(res)
+        return a+b
+    num1 = int(input())
+    num2 = int(input())
+    res = solveMeFirst(num1,num2)
+    print(res)
 
 
 2.SIMPLE ARRAY SUM
