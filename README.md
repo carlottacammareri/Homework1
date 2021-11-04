@@ -79,11 +79,11 @@ homework 1 pcs2021
     minResults = s - arr[len(arr)-1]
     print(minResults, maxResults)
     
-9. BIRTHDAY CAKE CANDLES
+9.BIRTHDAY CAKE CANDLES
 
-         candles.sort()
-      result = candles.count(candles[len(candles)-1])
-      return result
+            candles.sort()
+         result = candles.count(candles[len(candles)-1])
+         return result
 
 10. TIME CONVERSION
 
