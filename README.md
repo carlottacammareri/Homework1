@@ -81,9 +81,9 @@ homework 1 pcs2021
     
 9. BIRTHDAY CAKE CANDLES
 
-       candles.sort()
-    result = candles.count(candles[len(candles)-1])
-    return result
+         candles.sort()
+      result = candles.count(candles[len(candles)-1])
+      return result
 
 10. TIME CONVERSION
 
