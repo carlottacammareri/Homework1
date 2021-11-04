@@ -63,13 +63,13 @@ homework 1 pcs2021
        print("%f"%(zeroCounter / len(arr)))
 
 7.STAIRCASE
-         for i in range(0,n):
-             for j in range(0,n):
-                 if i+j >= n-1:
-                     print("#",end='')
-                 else:
-                     print(" ",end ='')
-             print("\r")
+            for i in range(0,n):
+                for j in range(0,n):
+                    if i+j >= n-1:
+                        print("#",end='')
+                    else:
+                        print(" ",end ='')
+                print("\r")
         
 8.MINI MAX SUM
 
@@ -87,7 +87,7 @@ homework 1 pcs2021
 
 10. TIME CONVERSION
 
-            p = s.split(":")
+          p = s.split(":")
           p[0] = int(p[0])%12
           if "PM" in p[-1] and [0]:
               p[0]+=12
