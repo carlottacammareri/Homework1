@@ -34,10 +34,10 @@ homework 1 pcs2021
     
 4. A VERY BIG SUM
 
-     sum = 0
-     for i in range(ar_count):
-         sum = sum + int(ar[i])
-     return sum        
+      sum = 0
+      for i in range(ar_count):
+          sum = sum + int(ar[i])
+      return sum        
     
 5.DIAGONAL DIFFERENCE
 
