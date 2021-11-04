@@ -118,6 +118,7 @@ homework 1 pcs2021
             print(*string, end=' ')
 
 9.CLOSEST NUMBERS
+
                  pairs = []
              mindiff = 999999999999
              arr.sort()
