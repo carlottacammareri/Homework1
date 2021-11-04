@@ -63,6 +63,7 @@ homework 1 pcs2021
        print("%f"%(zeroCounter / len(arr)))
 
 7.STAIRCASE
+
                   for i in range(0,n):
                       for j in range(0,n):
                           if i+j >= n-1:
