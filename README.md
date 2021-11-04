@@ -12,26 +12,26 @@ homework 1 pcs2021
     
 2.SYMMETRIC DIFFERENCE
 
-      M= int(input())
-      mset = set(map(int,input().split()))
-      N= int(input())
-      nset = set(map(int,input().split()))
+          M= int(input())
+          mset = set(map(int,input().split()))
+          N= int(input())
+          nset = set(map(int,input().split()))
 
-      mdef= mset.difference(nset)
-      ndef= nset.difference(mset)
+          mdef= mset.difference(nset)
+          ndef= nset.difference(mset)
 
-      output = mdef.union(ndef)
-      for i in sorted(list(output)):
-          print(i)
+          output = mdef.union(ndef)
+          for i in sorted(list(output)):
+              print(i)
     
 
 3.SET.ADD()
 
-N= int(input())
-countries = set()
-for i in range(N):
-    countries.add(input())
-print(len(countries))
+          N= int(input())
+          countries = set()
+          for i in range(N):
+              countries.add(input())
+          print(len(countries))
 
 
 4.CHECK SUBSET
