@@ -63,3 +63,18 @@ homework 1 pcs2021
        ar = [int(i) for i in input().strip().split()]
        insertion_sort(ar)
        print(" ".join(map(str,ar)))
+       
+       
+       
+6.RUNNING TIME
+
+    shifts = 0
+    for j in range(1, len(arr)):
+        key = arr[j]
+        i = j 
+        while i > 0 and arr[i-1]>key:
+            arr[i] = arr[i-1]
+            shifts += 1
+            i -= 1
+        arr[i] = key
+    return shifts
