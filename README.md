@@ -105,4 +105,15 @@ homework 1 pcs2021
     
     
     
-8.
+8.THE FULL COUNTING SORT
+
+
+        result = [[] for i in range(100)]
+    for i in range(n//2):
+        result[int(arr[i][0])].append('-')
+    for i in range(n//2, n):
+        result[int(arr[i][0])].append(arr[i][1])
+    for string in result:
+        if string:
+            print(*string, end=' ')
+        
