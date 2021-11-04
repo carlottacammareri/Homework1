@@ -118,15 +118,15 @@ homework 1 pcs2021
             print(*string, end=' ')
 
 9.CLOSEST NUMBERS
-              pairs = []
-          mindiff = 999999999999
-          arr.sort()
-          for i in range(1, len(arr)):
-              d = abs(arr[i-1] - arr[i])
-              if d < mindiff:
-                  mindiff = d 
-                  pairs = [arr[i-1], arr[i]]
-              elif d == mindiff:
-                  pairs.extend([arr[i-1], arr[i]])
+                 pairs = []
+             mindiff = 999999999999
+             arr.sort()
+             for i in range(1, len(arr)):
+                 d = abs(arr[i-1] - arr[i])
+                 if d < mindiff:
+                     mindiff = d 
+                     pairs = [arr[i-1], arr[i]]
+                 elif d == mindiff:
+                     pairs.extend([arr[i-1], arr[i]])
             
-          return pairs
+             return pairs
