@@ -101,3 +101,8 @@ homework 1 pcs2021
     arr[0], arr[j] = arr[j], arr[0]
     
     return arr 
+    
+    
+    
+    
+8.
