@@ -42,10 +42,10 @@ homework 1 pcs2021
         arr[0] = probe
     
 
-   def insertionSort2(n, arr):
-       # Write your code here
-       for ind in range(1, len(arr)):
-           insertionSort1(ind, arr)
-           print(" ".join(map(str, arr)))
+      def insertionSort2(n, arr):
+          # Write your code here
+          for ind in range(1, len(arr)):
+              insertionSort1(ind, arr)
+              print(" ".join(map(str, arr)))
 
 
