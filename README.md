@@ -12,23 +12,23 @@ homework 1 pcs2021
 
 2.ITERTOOLS.PERMUTATIONS()
 
-from itertools import permutations
-s,n = input().split()
-print(*[''.join(i) for i in permutations(sorted(s),int(n))],sep='\n')
+       from itertools import permutations
+       s,n = input().split()
+       print(*[''.join(i) for i in permutations(sorted(s),int(n))],sep='\n')
 
 
 3.ITERABLES AND ITERATORS
 
-from itertools import combinations
-N= int(input())
-char = input().split()
-K = int(input())
-count = 0;
-total = 0;
-for i in combinations(char,K):
-    count += 'a' in i
-    total += 1
-print(count/total)
+      from itertools import combinations
+      N= int(input())
+      char = input().split()
+      K = int(input())
+      count = 0;
+      total = 0;
+      for i in combinations(char,K):
+          count += 'a' in i
+          total += 1
+      print(count/total)
 
 4.MAXIMIZE IT!
 
