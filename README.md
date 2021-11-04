@@ -87,10 +87,10 @@ homework 1 pcs2021
 
 10. TIME CONVERSION
 
-      p = s.split(":")
-    p[0] = int(p[0])%12
-    if "PM" in p[-1] and [0]:
-        p[0]+=12
-    p[0] = '%02d'%p[0]
-    return ":".join(p)[:-2]
+         p = s.split(":")
+       p[0] = int(p[0])%12
+       if "PM" in p[-1] and [0]:
+           p[0]+=12
+       p[0] = '%02d'%p[0]
+       return ":".join(p)[:-2]
             
