@@ -63,13 +63,13 @@ homework 1 pcs2021
        print("%f"%(zeroCounter / len(arr)))
 
 7.STAIRCASE
-               for i in range(0,n):
-                   for j in range(0,n):
-                       if i+j >= n-1:
-                           print("#",end='')
-                       else:
-                           print(" ",end ='')
-                   print("\r")
+                  for i in range(0,n):
+                      for j in range(0,n):
+                          if i+j >= n-1:
+                              print("#",end='')
+                          else:
+                              print(" ",end ='')
+                      print("\r")
         
 8.MINI MAX SUM
 
@@ -81,7 +81,7 @@ homework 1 pcs2021
     
 9.BIRTHDAY CAKE CANDLES
 
-            candles.sort()
+         candles.sort()
          result = candles.count(candles[len(candles)-1])
          return result
 
