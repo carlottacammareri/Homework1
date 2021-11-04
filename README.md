@@ -26,5 +26,26 @@ homework 1 pcs2021
     if arr[0] > probe:
         arr[0] = probe
         print(" ".join(map(str, arr)))
+        
+ 4.INSERTION SORT 2
+ 
+       def insertionSort1(n, arr):
+    # Write your code here
+    probe = arr[n]
+    for ind in range(n-1, -1, -1):
+        if arr[ind] > probe:
+            arr[ind + 1 ] = arr[ind]
+        else:
+            arr[ind + 1] = probe
+            break
+    if arr[0] > probe:
+        arr[0] = probe
+    
+
+   def insertionSort2(n, arr):
+       # Write your code here
+       for ind in range(1, len(arr)):
+           insertionSort1(ind, arr)
+           print(" ".join(map(str, arr)))
 
 
