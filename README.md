@@ -36,11 +36,11 @@ homework 1 pcs2021
 
 4.CHECK SUBSET
 
-T= int(input())
-for _ in range(T):
-    a= input()
-    A= set(input().split())
-    b= int(input())
-    B= set(input().split())
-    print(A.issubset(B))
+          T= int(input())
+          for _ in range(T):
+              a= input()
+              A= set(input().split())
+              b= int(input())
+              B= set(input().split())
+              print(A.issubset(B))
     
