@@ -4,10 +4,10 @@ homework 1 pcs2021
 
 1.ITERTOOLS.PRODUCT()
 
-from itertools import product
-a = list(map(int, input().split()))
-b = list(map(int, input().split()))
-print(*product(a,b))
+       from itertools import product
+       a = list(map(int, input().split()))
+       b = list(map(int, input().split()))
+       print(*product(a,b))
 
 
 2.ITERTOOLS.PERMUTATIONS()
