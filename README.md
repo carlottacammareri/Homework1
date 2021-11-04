@@ -131,3 +131,11 @@ homework 1 pcs2021
                      pairs.extend([arr[i-1], arr[i]])
             
              return pairs
+             
+             
+             
+ 10.FIND THE MEDIAN
+ 
+            arr = sorted(arr)
+            return arr[len(arr)//2]
+
