@@ -3,19 +3,19 @@ homework 1 pcs2021
 
 1.COLLECTIONS.COUNTER()
 
-from collections import Counter
+      from collections import Counter
 
-num_shoes = int(input())
-shoe_sizes = Counter(map(int, input().split()))
-num_customers = int(input())
+      num_shoes = int(input())
+      shoe_sizes = Counter(map(int, input().split()))
+      num_customers = int(input())
 
-cost = 0
-for _ in range(num_customers):
-    size, price = map(int, input().split())
-    if shoe_sizes[size]:
-        cost += price
-        shoe_sizes[size] -= 1
-print(cost)
+      cost = 0
+      for _ in range(num_customers):
+          size, price = map(int, input().split())
+          if shoe_sizes[size]:
+              cost += price
+              shoe_sizes[size] -= 1
+      print(cost)
 
 
 2.COLLECTIONS.ORDEREDDICT()
