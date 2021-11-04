@@ -33,9 +33,9 @@ homework 1 pcs2021
 4.MAXIMIZE IT!
 
 
-from itertools import *
+      from itertools import *
 
-K,M = map(int,input().split())
-N = (list(map(int,input().split()))[1:]for _ in range(K))
-results = map(lambda x: sum(i**2 for i in x)%M, product(*N))
-print (max(results))
+      K,M = map(int,input().split())
+      N = (list(map(int,input().split()))[1:]for _ in range(K))
+      results = map(lambda x: sum(i**2 for i in x)%M, product(*N))
+      print (max(results))
