@@ -1,32 +1,46 @@
-# STRINGS-PYTHON
+# SETS
 homework 1 pcs2021
 
-sWAP cASE
+1.INTRODUCTION TO SETS
 
-def swap_case(s):
-    return s.swapcase()
+def average(array):
+    # your code goes here
+    sum_array = sum(set(array))
+    len_array = len(set(array))
+    output = sum_array/len_array
+    return output
     
-WHAT'S YOUR NAME? 
+2.SYMMETRIC DIFFERENCE
  
- def print_full_name(first, last):
-    # Write your code here
-    last= last+"!"
-    print ("Hello",first, last,"You just delved into python.")
+ M= int(input())
+mset = set(map(int,input().split()))
+N= int(input())
+nset = set(map(int,input().split()))
+
+mdef= mset.difference(nset)
+ndef= nset.difference(mset)
+
+output = mdef.union(ndef)
+for i in sorted(list(output)):
+    print(i)
     
- 
- FIND A STRING
- 
- def count_substring(string, sub_string):
-    count = 0 
-    for i in range(len(string)):
-        if string[i:].startswith(sub_string):
-            count += 1
-    return count
 
-TEXT WRAP
+3.SET.ADD()
 
-import textwrap
+N= int(input())
+countries = set()
+for i in range(N):
+    countries.add(input())
+print(len(countries))
 
-def wrap(string, max_width):
-    return "\n".join([string[i:i+max_width]for i in range(0, len(string),max_width)])
 
+4.CHECK SUBSET
+
+T= int(input())
+for _ in range(T):
+    a= input()
+    A= set(input().split())
+    b= int(input())
+    B= set(input().split())
+    print(A.issubset(B))
+    
