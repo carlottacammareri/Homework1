@@ -80,12 +80,13 @@ homework 1 pcs2021
     print(minResults, maxResults)
     
 9. BIRTHDAY CAKE CANDLES
+
        candles.sort()
-    
     result = candles.count(candles[len(candles)-1])
     return result
 
 10. TIME CONVERSION
+
       p = s.split(":")
     p[0] = int(p[0])%12
     if "PM" in p[-1] and [0]:
