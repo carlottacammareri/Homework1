@@ -21,13 +21,13 @@ homework 1 pcs2021
 2.COLLECTIONS.ORDEREDDICT()
 
 
-from collections import OrderedDict
-d = OrderedDict()
-for _ in range(int(input())):
-    item, space, quantity = input().rpartition(' ')
-    d[item] = d.get(item, 0) + int(quantity)
-for item, quantity in d.items():
-    print(item, quantity)
+      from collections import OrderedDict
+      d = OrderedDict()
+      for _ in range(int(input())):
+          item, space, quantity = input().rpartition(' ')
+          d[item] = d.get(item, 0) + int(quantity)
+      for item, quantity in d.items():
+          print(item, quantity)
     
 3.COMPANY LOGO
 
