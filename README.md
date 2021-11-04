@@ -39,15 +39,15 @@ homework 1 pcs2021
 4. GAME OF THRONES 1
 
 
-   from collections import Counter
-        s = Counter(s)
-           total = 0
-           for key, value in s.items():
-               total += value % 2
-           if total > 1:
-               return "NO"
-           else: 
-               return "YES"
+      from collections import Counter
+           s = Counter(s)
+              total = 0
+              for key, value in s.items():
+                  total += value % 2
+              if total > 1:
+                  return "NO"
+              else: 
+                  return "YES"
                
 5.TWO STRINGS
 
