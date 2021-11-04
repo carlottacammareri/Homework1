@@ -47,29 +47,29 @@ homework 1 pcs2021
     
     
 6. PLUS MINUS
-    positiveCounter = 0
-    negativeCounter = 0
-    zeroCounter = 0
+       positiveCounter = 0
+       negativeCounter = 0
+       zeroCounter = 0
     
-    for i in range (len(arr)):
-        if arr[i] > 0:
-            positiveCounter +=1
-        elif arr[i] < 0:
-            negativeCounter += 1
-        else:
-            zeroCounter += 1
-    print("%f"%(positiveCounter / len(arr)))
-    print("%f"%(negativeCounter / len(arr)))
-    print("%f"%(zeroCounter / len(arr)))
+       for i in range (len(arr)):
+           if arr[i] > 0:
+               positiveCounter +=1
+           elif arr[i] < 0:
+               negativeCounter += 1
+           else:
+               zeroCounter += 1
+       print("%f"%(positiveCounter / len(arr)))
+       print("%f"%(negativeCounter / len(arr)))
+       print("%f"%(zeroCounter / len(arr)))
 
 7.STAIRCASE
-      for i in range(0,n):
-          for j in range(0,n):
-              if i+j >= n-1:
-                  print("#",end='')
-              else:
-                  print(" ",end ='')
-          print("\r")
+         for i in range(0,n):
+             for j in range(0,n):
+                 if i+j >= n-1:
+                     print("#",end='')
+                 else:
+                     print(" ",end ='')
+             print("\r")
         
 8.MINI MAX SUM
 
@@ -87,10 +87,10 @@ homework 1 pcs2021
 
 10. TIME CONVERSION
 
-         p = s.split(":")
-       p[0] = int(p[0])%12
-       if "PM" in p[-1] and [0]:
-           p[0]+=12
-       p[0] = '%02d'%p[0]
-       return ":".join(p)[:-2]
+            p = s.split(":")
+          p[0] = int(p[0])%12
+          if "PM" in p[-1] and [0]:
+              p[0]+=12
+          p[0] = '%02d'%p[0]
+          return ":".join(p)[:-2]
             
