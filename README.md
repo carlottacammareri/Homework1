@@ -12,12 +12,12 @@
     
     
     
-FIND THE RUNNER-UP SCORE
+2.FIND THE RUNNER-UP SCORE
 
-if __name__ == '__main__':
-    n = int(input())
-    arr = map(int, input().split())
-    print (sorted(set(arr))[-2])
+          if __name__ == '__main__':
+              n = int(input())
+              arr = map(int, input().split())
+              print (sorted(set(arr))[-2])
     
     
     
